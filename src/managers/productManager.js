@@ -123,7 +123,7 @@ export default class ProductManager {
         await fs.promises.writeFile(this.path, JSON.stringify(newProductsList, null, 2))
       }
     }
-    }
+  }
 
   deleteProduct = async (objparams) => {
     const { id } = objparams;
@@ -133,7 +133,7 @@ export default class ProductManager {
       await fs.promises.writeFile(this.path, JSON.stringify(deleteProduct, null, 2))
     } catch (error) {
       console.log("Error al eliminar el producto:", error);
-      throw error
+      throw error;
     }
   }
 }
