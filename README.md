@@ -28,8 +28,17 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 
 # Uso
 
-Endpoint para obtener todos los items: GET /api/products
-Endpoint para obtener un item por ID: GET /api/products/:id
-Endpoint para crear un nuevo item: POST /api/products
-Endpoint para actualizar un item existente: PUT /api/products/:id
-Endpoint para eliminar un item: DELETE /api/products/:id
+   ```bash
+   Endpoint para obtener todos los items: GET /api/products
+
+   ```bash
+   Endpoint para obtener un item por ID: GET /api/products/:id
+
+   ```bash
+   Endpoint para crear un nuevo item: POST /api/products
+
+   ```bash
+   Endpoint para actualizar un item existente: PUT /api/products/:id
+
+   ```bash
+   Endpoint para eliminar un item: DELETE /api/products/:id
