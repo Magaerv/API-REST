@@ -46,4 +46,4 @@ productRouter.delete("/:id", async (req, res) => {
   }
 })
 
-export default productRouter
+export default productRouter;
